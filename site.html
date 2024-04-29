@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site-calara</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="exemple.css">
+
+
+</head>
+<body>
+  <a href="file:///C:/Users/elicl/OneDrive/Bureau/disigner/site.html">Visitez mon site</a>
+
+   <!-- HTML -->
+  <section id="Partie-slide">
+    <div class="container">
+        <div class="section left-section">
+          <h2>promotion</h2>
+          <button>Voir plus</button>
+        </div>
+
+       
+        <div class="section  middle-section ">
+          
+          <div id="slider">
+            <img src="robe.jpg" alt="" id="slide">
+            <img src="tapette.jpg" alt="" id="slide">
+            <img src="boucle.jpg" alt="" id="slide">
+            <img src="lampe.jpg" alt="" id="slide">
+            
+            <div id="precedent" onclick="ChangeSlide(-1)">&lt;</div> <!-- Utilisez &lt; pour < -->
+            <div id="suivant" onclick="ChangeSlide(1)">&gt;</div> <!-- Utilisez &gt; pour > -->
+             <div class="pagination">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+           </div>
+
+        </div> 
+        </div>
+        
+
+        <div class="section right-section">
+           <h2>touts</h2>
+        </div>
+    </div>
+  </section>
+  
+                 <!--Partie ronde-->
+  <section id="section-ronde">
+    <div class="container">
+      <div class="case-ronde">
+          <!-- Première catégorie -->
+          <div><img src="robe.jpg" alt="" class="img-ronde"></div>
+          <div class="case-titre">
+              <h5>Femmes</h5> 
+          </div>
+      </div>
+
+      <div class="case-ronde">
+          <!-- Deuxième catégorie -->
+          <div><img src="tapette.jpg" alt="" class="img-ronde"></div>
+          <div class="case-titre">
+              <h5>Hommes</h5>
+          </div>
+      </div>
+
+      <div class="case-ronde">
+          <!-- Troisième catégorie -->
+          <div><img src="robe.jpg" alt="" class="img-ronde"></div>
+          <div class="case-titre">
+              <h5>Echarpe</h5>
+          </div>
+      </div>
+
+      <div class="case-ronde">
+          <!-- Quatrième catégorie -->
+          <div><img src="boucle.jpg" alt="" class="img-ronde"></div>
+          <div class="case-titre">
+              <h5>Boucles</h5>
+          </div>
+      </div>
+
+      <div class="case-ronde">
+          <!-- Cinquième catégorie -->
+          <div><img src="robe.jpg" alt="" class="img-ronde"></div>
+          <div class="case-titre">
+              <h5>Chaussures</h5>
+          </div>
+      </div>
+
+      <div class="case-ronde">
+          <!-- Sixième catégorie -->
+          <div><img src="lampe.jpg" alt="" class="img-ronde"></div>
+          <div class="case-titre">
+              <h5>Déco</h5>
+          </div>
+      </div>
+  </div>
+  </section>
+
+
+</body>
+<script src="exempe.js"></script>
+
+</html>

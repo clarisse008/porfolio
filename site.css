@@ -1,0 +1,63 @@
+/* CSS */
+
+#Partie-slide {
+  margin: 50px;
+}
+
+.container {
+  display: flex;
+  gap: 20px; 
+}
+
+.section {
+  flex: 1;
+  padding: 20px; 
+}
+
+.left-section, .right-section {
+  background-color: beige;
+}
+
+.middle-section {
+  flex: 2;
+  background-color: blue;
+  display: flex;
+  align-items: center; 
+  margin: auto;
+}
+
+
+
+.middle-section {
+  position: relative; 
+  
+}
+
+
+
+
+
+/* partie ronde*/
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.case-ronde {
+  text-align: center;
+  margin: 20px;
+}
+
+.img-ronde {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden; /* Pour que l'image reste ronde */
+}
+
+.case-titre h5 {
+  margin-top: 10px;
+}
